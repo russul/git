@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>展示</title>
+<link rel="stylesheet" type="text/css" href="/page/css/easyui.css">  
+<link rel="stylesheet" type="text/css" href="/page/css/icon.css">  
+<script type="text/javascript" src="/page/js/jquery.min.js"></script>  
+<script type="text/javascript" src="/page/js/jquery.easyui.min.js"></script>
+
+</head>
+<body class="easyui-layout">   
+    <div data-options="region:'north',title:'分页',split:true" style="height:100px;"><h1 align="center">分页查询</h1></div>   
+    <div data-options="region:'south',title:'South Title',split:true" style="height:100px;"></div>   
+    <div data-options="region:'east',iconCls:'icon-reload',title:'East',split:true" style="width:100px;"></div>   
+    <div data-options="region:'west',title:'查询',split:true" style="width:100px;"><a href="/page/StudentServlet?pageNum=1&pageSize=20" target="center">查询</a></div>   
+    <div data-options="region:'center',title:'显示'" style="padding:5px;background:#eee;"><iframe name="center" width="1000" height="680"></iframe></div>  
+</body>
+
+</html>
